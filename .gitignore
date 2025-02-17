@@ -169,3 +169,46 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+# PyCharm
+.idea/
+*.iml
+
+# Папки для виртуальных окружений
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Логи
+*.log
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Файлы конфигурации
+*.pyo
+*.pyd
+
+# Другие временные файлы
+*.swp
+*.swo
+
+# Файлы тестов
+.coverage
+.coverage.*
+nosetests.xml
+test-results/
+
+# Системы сборки
+build/
+dist/
+*.egg-info/
+
+# Файлы управления зависимостями
+Pipfile.lock
